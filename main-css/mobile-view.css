@@ -4,6 +4,10 @@
             box-sizing: border-box;
         }
         
+        html {
+            scroll-behavior: smooth;
+        }
+        
         body {
             font-size: 14px;
             font-family: 'Open Sans', sans-serif;
@@ -35,13 +39,6 @@
             color: hsl(0, 0%, 100%);
             text-align: center;
         }
-        /* #home,
-        #cta {
-            background-color: hsl(217, 28%, 15%);
-        } */
-        /* main {
-            background-color: hsl(218, 28%, 13%);
-        } */
         
         @media screen and (max-width: 400px) {
             button {

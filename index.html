@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Open+Sans">
     <link rel="stylesheet" href="/fontawesome-free-5.12.1-web/css/all.min.css">
     <link rel="stylesheet" href="/fontawesome-free-5.12.1-web/css/brands.min.css">
-    <link rel="stylesheet" href="/main-css/full-view.css">
-    <link rel="stylesheet" media="screen and (min-device-width: 800px)" href="/main-css/mobile-view.css"/>
+    <!-- <link rel="stylesheet" href="/main-css/full-view.css"> -->
+    <link rel="stylesheet" media="screen and (max-device-width: 400px)" href="/main-css/mobile-view.css" />
     <link rel=" icon " type="image/png " sizes="32x32 " href="./images/favicon-32x32.png ">
     <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
@@ -38,7 +38,7 @@
         <section id="home ">
             <div class="container ">
                 <div class="intro-img ">
-                    <img src="/images/illustration-intro.png " alt="illustration-intro ">
+                    <img src="/images/illustration-intro.png " alt="illustration-intro " loading='lazy'>
                 </div>
                 <div class="intro-text ">
                     <h1>All your files in one secure location, accessible anywhere.</h1>
@@ -52,7 +52,7 @@
                 <div class=" container-fluid ">
                     <div class="col-lg-12 access ">
                         <div class="access-img ">
-                            <img src="/images/icon-access-anywhere.svg " alt="access-anywhere ">
+                            <img src="/images/icon-access-anywhere.svg " loading='lazy' alt="access-anywhere ">
                         </div>
                         <div class="access-text ">
                             <h2>Access your files, anywhere</h2>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="col-lg-12 security ">
                         <div class="security-img ">
-                            <img src="/images/icon-security.svg " alt="security ">
+                            <img src="/images/icon-security.svg " loading='lazy' alt="security ">
                         </div>
                         <div class="security-text ">
                             <h2>Security you can trust</h2>
@@ -71,7 +71,7 @@
                     </div>
                     <div class="col-lg-12 collaboration ">
                         <div class="collaboration-img ">
-                            <img src="/images/icon-collaboration.svg " alt="collaboration ">
+                            <img src="/images/icon-collaboration.svg " loading='lazy' alt="collaboration ">
                         </div>
                         <div class="collaboration-text ">
                             <h2> Real-time collaboration</h2>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="col-lg-12 storage ">
                         <div class="storage-img ">
-                            <img src="/images/icon-any-file.svg " alt="storage ">
+                            <img src="/images/icon-any-file.svg " loading='lazy' alt="storage ">
                         </div>
                         <div class="storage-text ">
                             <h2> Store any type of file</h2>
@@ -89,7 +89,7 @@
                     </div>
                     <div class="col-lg-12 storage ">
                         <div class="productive ">
-                            <img src="/images/illustration-stay-productive.png " alt="productive ">
+                            <img src="/images/illustration-stay-productive.png " loading='lazy' alt="productive ">
                         </div>
                         <div class="productive-text ">
                             <h2> Stay productive, wherever you are</h2>
@@ -110,7 +110,7 @@
 
                             <p> Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
                             <div class="profile ">
-                                <img src="/images/profile-1.jpg " alt="profile-1 ">
+                                <img src="/images/profile-1.jpg " loading='lazy' alt="profile-1 ">
                                 <h3>Satish Patel</h3>
                                 <p>Founder & CEO, Huddle</p>
                             </div>
@@ -120,7 +120,7 @@
                         <div class="text-box-two ">
                             <p> Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
                             <div class="profile-two ">
-                                <img src="/images/profile-2.jpg " alt="profile-2 ">
+                                <img src="/images/profile-2.jpg " loading='lazy' alt="profile-2 ">
                                 <h3>Bruce McKenzie</h3>
                                 <p>Founder & CEO, Huddle</p>
                             </div>
@@ -130,7 +130,7 @@
                         <div class="text-box-two ">
                             <p> Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
                             <div class="profile-two ">
-                                <img src="/images/profile-3.jpg " alt="profile-3 ">
+                                <img src="/images/profile-3.jpg " loading='lazy' alt="profile-3 ">
                                 <h3>Iva Boyd</h3>
                                 <p>Founder & CEO, Huddle</p>
                             </div>
@@ -152,6 +152,8 @@
                 </div>
             </div>
         </section>
+
+        <p class="yunus">Yunus</p>
     </main>
 
     <footer id='footer'>
