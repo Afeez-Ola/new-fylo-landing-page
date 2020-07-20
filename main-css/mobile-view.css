@@ -1,0 +1,365 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+            background-color: hsl(218, 28%, 13%);
+            /* background-image: url('/images/bg-curvy-mobile.svg') center no-repeat; */
+        }
+        
+        h3 {
+            font-weight: 700;
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+            color: hsl(0, 0%, 100%);
+        }
+        
+        h2 {
+            color: hsl(0, 0%, 100%);
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+        }
+        
+        h1 {
+            color: hsl(0, 0%, 100%);
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+        }
+        
+        p {
+            font-family: 'Open Sans', sans-serif;
+            color: hsl(0, 0%, 100%);
+            text-align: center;
+        }
+        /* #home,
+        #cta {
+            background-color: hsl(217, 28%, 15%);
+        } */
+        /* main {
+            background-color: hsl(218, 28%, 13%);
+        } */
+        
+        @media screen and (max-width: 400px) {
+            button {
+                padding: 2% 10%;
+                margin: 3px 65px;
+                width: 60%;
+                height: 40px;
+                border-radius: 20px;
+                background-color: hsl(176, 68%, 64%);
+            }
+            /******** Navigation bar starts ******/
+            nav {
+                margin: 30px auto 0;
+                text-decoration: none;
+                list-style-type: none;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            a {
+                list-style-type: none;
+                color: hsl(0, 0%, 100%);
+                text-decoration: none;
+            }
+            .logo {
+                width: 60%;
+            }
+            /******** Navigation bar ends ******/
+            /********* Introduction page starts *********/
+            .container {
+                margin: 12px;
+            }
+            .intro-img {
+                width: 100%;
+                height: auto;
+            }
+            .intro-img img {
+                margin: 30px 12px 0 54px;
+                width: 80%;
+                height: auto;
+            }
+            .intro-text {
+                margin: 0px;
+                width: 100%;
+            }
+            .intro-text h1 {
+                text-align: center;
+                width: 80%;
+                margin: 30px 12px 30px 34px;
+            }
+            .intro-text p {
+                text-align: center;
+                width: 85%;
+                margin: 30px 12px 30px 24px;
+            }
+            /**********Introduction page section ends  ********/
+            /********* Advertisement's Section ***********/
+            .container-fluid {
+                padding: 5% 8%;
+            }
+            /******* Access files section ******/
+            .access,
+            .collaboration,
+            .security,
+            .storage,
+            .productive {
+                margin: 30px auto;
+            }
+            .access-img img,
+            .collaboration-img img,
+            .security-img img,
+            .storage-img img {
+                margin: 12px 35%;
+            }
+            .access-text h2,
+            .security-text h2,
+            .collaboration-text h2,
+            .storage-text h2 {
+                margin: 15px auto;
+                text-align: center;
+            }
+            .productive {
+                margin: 30px auto;
+            }
+            .productive img {
+                width: 100%;
+                margin: 20px auto;
+            }
+            .productive-text h2 {
+                width: 140%;
+                margin: auto 30px 20px -50px;
+            }
+            .productive-text p {
+                margin: 20px auto;
+                text-align: initial;
+            }
+            .productive-text .fylo-link {
+                color: hsl(176, 68%, 64%);
+                text-decoration: underline;
+            }
+            .fylo-link span img {
+                position: relative;
+                top: 2px;
+            }
+            /********Advertisement Section ends ********/
+            /********* CTA ********/
+            #testimonial {
+                margin: 50px auto 10px;
+                background-color: hsl(219, 30%, 18%);
+            }
+            .text-box {
+                width: 105%;
+                height: 180px;
+                margin-bottom: 30px;
+                background-color: #202a3c;
+                border-radius: 7px;
+                /* box-shadow: 2px 0px 1px rgba(169, 165, 165, 0.898); */
+            }
+            .text-box p {
+                padding: 5% 0% 8% 3%;
+                text-align: initial;
+                line-height: 1.5;
+                font-size: 12px;
+                position: relative;
+                bottom: 45px;
+                width: 88%;
+                left: 12px;
+            }
+            .quote-img {
+                position: relative;
+                bottom: 35px;
+                left: 8px;
+                z-index: -1;
+            }
+            .profile {
+                display: flex;
+                position: relative;
+                bottom: 52px;
+            }
+            .profile img {
+                border-radius: 50%;
+                width: 15%;
+                height: 55px;
+                position: relative;
+                left: 20px;
+            }
+            .profile h3 {
+                text-align: initial;
+                width: 100%;
+                position: relative;
+                left: 30px;
+                top: 4px;
+            }
+            .profile p {
+                position: relative;
+                top: 20px;
+                left: -117px;
+                width: 100%;
+            }
+            .text-box-two {
+                width: 105%;
+                height: 180px;
+                margin-bottom: 30px;
+                background-color: #202a3c;
+                border-radius: 7px;
+                /* box-shadow: 2px 0px 1px rgba(169, 165, 165, 0.898); */
+            }
+            .text-box-two p {
+                padding: 5% 0% 8% 3%;
+                text-align: initial;
+                line-height: 1.5;
+                font-size: 12px;
+                position: relative;
+                bottom: -10px;
+                width: 88%;
+                left: 12px;
+            }
+            .profile-two {
+                display: flex;
+                position: relative;
+                bottom: 6px;
+            }
+            .profile-two img {
+                border-radius: 50%;
+                width: 15%;
+                height: 55px;
+                position: relative;
+                left: 20px;
+            }
+            .profile-two h3 {
+                text-align: initial;
+                width: 100%;
+                position: relative;
+                left: 30px;
+                top: 4px;
+            }
+            .profile-two p {
+                position: relative;
+                top: 20px;
+                left: -117px;
+                width: 100%;
+            }
+            /***** CTA Section ******/
+            #cta {
+                margin: 50px auto 10px;
+            }
+            .cta-box {
+                width: 108%;
+                height: 300px;
+                background-color: #202a3c;
+                border-radius: 7px;
+                position: relative;
+                right: 12px;
+                z-index: 2;
+            }
+            .cta-box h3 {
+                margin: 12px auto 3px;
+                padding: 9% auto 2%;
+                padding: 18% 1% 0%;
+            }
+            .cta-box p {
+                margin: 12px 25px 10px;
+                padding: 1%;
+            }
+            .cta-box button {
+                width: 80%;
+                position: relative;
+                right: 30px;
+                margin-bottom: 12px;
+            }
+            .cta-button {
+                text-align: initial;
+                color: none;
+                background-color: hsl(0, 0%, 100%);
+            }
+            .get-started {
+                color: hsl(0, 0%, 100%);
+                word-spacing: 2px;
+            }
+            /****** Footer Section *******/
+            footer {
+                background-color: hsl(216, 53%, 9%);
+            }
+            .logo-pics {
+                margin: auto 28px 20px;
+            }
+            .location {
+                display: flex;
+                margin-bottom: 12px;
+            }
+            .location img {
+                width: 10%;
+                height: 22px;
+                margin: 0 20px;
+            }
+            .location p {
+                text-align: initial;
+            }
+            .phone {
+                display: flex;
+                margin: 20px 18px;
+            }
+            .phone p {
+                margin: 0 15px;
+            }
+            .email {
+                display: flex;
+                margin: 20px 18px;
+            }
+            .email p {
+                margin: 0 15px
+            }
+            .about {
+                position: relative;
+                left: 18px;
+                width: 40%;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+            .about p {
+                text-align: initial;
+                margin-bottom: 12px;
+            }
+            .contact {
+                position: relative;
+                left: 18px;
+                width: 40%;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+            .contact p {
+                text-align: initial;
+                margin-bottom: 12px;
+            }
+            /****** Media ******/
+            .media {
+                margin: auto 102px;
+            }
+            .fab {
+                font-weight: 400;
+                font-size: 20px;
+                border: 1px solid hsl(0, 0%, 100%);
+                border-radius: 100%;
+                color: hsl(0, 0%, 100%);
+            }
+        }
+        /* .attribution {
+     font-size: 11px;
+     text-align: center;
+ }
+ 
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+ } 
+
+color: hsl(228,
+45%,
+44%);
+
+}
+*/
